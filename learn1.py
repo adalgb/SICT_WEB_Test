@@ -28,6 +28,14 @@ def demo_operation():
     y = 3.3
     print(x, y, type(x), type(y))
 
+def demo_bulidInFunction():
+    print(1,max(2, 1),min(5,3))
+    print(2, len("XXX"),len([1, 2, 3]))
+    print(3, abs(-2)) #fabs,Math.abs
+    print(4, range(1, 10, 3))
+    print(5, dir(list))
+    x = 2
+
 if __name__ ==  '__main__':
      '''
      user1 = User('ul',l)
